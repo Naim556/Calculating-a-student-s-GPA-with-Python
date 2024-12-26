@@ -16,7 +16,11 @@ Gets the student's name from the user and ensures it is not empty.
 Calls the calculate_gpa function to compute the student's GPA.
 Stores student names and their GPAs in a list.
 Provides options for the user to continue or exit.
-At the end, it prints a summary of all students' GPAs.
+At the end, Sorting Students by GPA:
+
+In the summary section, the list of students is sorted by their GPA using the sorted function.
+The key parameter specifies the field to sort by (in this case, gpa).
+To sort in descending order (highest GPA first), reverse=True is used.
 Program Execution (__name__ == "__main__"):
 
 If the file is run directly, the main function is executed. This ensures the program does not execute unintentionally if imported as a module.
@@ -35,7 +39,11 @@ Kullanıcıdan öğrencinin adını alır ve adın boş olmadığını kontrol e
 Öğrencinin GPA'sını hesaplamak için calculate_gpa fonksiyonunu çağırır.
 Öğrenci isimlerini ve GPA'larını bir listede saklar.
 Kullanıcıya devam etmek veya çıkış yapmak için seçenekler sunar.
-Sonunda, tüm öğrencilerin GPA'larının bir özeti yazdırılır.
+Sonunda, GPA'ye Göre Öğrencilerin Sıralanması:
+
+Özet bölümünde, öğrencilerin listesi sorted fonksiyonu kullanılarak GPA'lerine göre sıralanır.
+key parametresi, sıralama yapılacak alanı belirtir (bu durumda gpa).
+Azalan düzende sıralamak için (en yüksek GPA ilk sırada), reverse=True kullanılmıştır.
 Programın Çalıştırılması (__name__ == "__main__"):
 
 Eğer dosya doğrudan çalıştırılırsa, main fonksiyonu çağrılır. Bu yapı, programın bir modül olarak kullanılması durumunda istem dışı çalışmasını engeller.
@@ -54,7 +62,11 @@ Eğer dosya doğrudan çalıştırılırsa, main fonksiyonu çağrılır. Bu yap
 فراخوانی تابع calculate_gpa برای محاسبه معدل دانشجو.
 ذخیره اطلاعات دانشجویان و معدل‌های آنها در یک لیست.
 نمایش پیام ادامه یا خروج برای کاربر.
-در پایان، یک خلاصه از معدل تمام دانشجویان چاپ می‌شود.
+در پایان، مرتب‌سازی دانشجویان بر اساس معدل (GPA):
+
+در بخش نمایش خلاصه معدل‌ها، لیست دانشجویان با استفاده از تابع sorted بر اساس معدل آنها مرتب می‌شود.
+از پارامتر key برای مشخص کردن کلید مرتب‌سازی استفاده شده است (در اینجا، gpa).
+برای مرتب‌سازی نزولی (بالاترین معدل در ابتدا)، از reverse=True استفاده شده است.
 اجرای برنامه (__name__ == "__main__"):
 
 اگر فایل به صورت مستقیم اجرا شود، تابع main اجرا می‌شود. این ساختار تضمین می‌کند که برنامه به صورت ماژول استفاده نشود.
